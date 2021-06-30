@@ -1,0 +1,5 @@
+tuple=(10,20,30,40)
+if 10 in tuple:
+    print('yes')
+else:
+    print('no')
