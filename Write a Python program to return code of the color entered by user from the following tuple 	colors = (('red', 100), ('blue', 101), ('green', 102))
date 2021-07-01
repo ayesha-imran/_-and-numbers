@@ -1,0 +1,12 @@
+tuple = (('red', 100), ('blue', 101), ('green', 102))
+color= input('enter values')
+for i in tuple:
+    sub_tuple=i
+    for j in range (0,len(sub_tuple)):
+        #print(j)
+        if isinstance(sub_tuple[j],str):
+            #print(j)
+            if color == sub_tuple[j]:
+                print('your color code :', sub_tuple[j+1])
+            else:
+                print('color is not avalible in my record')
