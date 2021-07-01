@@ -1,0 +1,2 @@
+words = ['biG','daTa', 'analYtics']
+print([word[0].upper() + word[1:].lower() for word in words])
