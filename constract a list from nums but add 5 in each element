@@ -1,0 +1,4 @@
+nums=[i for i in range(1,1001)]
+mystr="practice problem to drill list comprehansive in your head"
+result=[5+ x for x in nums]
+print(result)
