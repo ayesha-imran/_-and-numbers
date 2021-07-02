@@ -1,0 +1,3 @@
+text = ['Big', 'data', 'is', 'a', 'term', 'that', 'describes', 'the', 'large', 'volume', 'of', 'data', '–', 'both', 'structured', 'and', 'unstructured']
+print([word for word in text if len(word) > 3])
+
