@@ -1,0 +1,10 @@
+def my_function(n):
+    result=1
+    for i in range(n,0,-1):
+        result = result * i
+    print(result)
+def main():
+    n=int(input("enter values"))
+    my_function(n)
+if __name__ == '__main__':
+    main()
